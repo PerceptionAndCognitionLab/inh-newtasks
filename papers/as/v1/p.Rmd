@@ -82,7 +82,7 @@ The key prediction is about the correlation among the prosaccade and antisaccade
 
 # Method
 
-**Subjects.** Twenty-six students from Brywn Mawr college participated in exchange for course credit or $10.  This sample was the largest one we could obtain before the semester ended.  Although a sample size of 26 is not recommended for between-subject designs, it is plenty powerful for the current within-subject design where each participants runs for 300 trials [@Rouder.Haaf.2018;@Smith.Little.2018].
+**Subjects.** Twenty-six students from Brywn Mawr College participated in exchange for course credit or $10.  This sample was the largest one we could obtain before the semester ended.  Although a sample size of 26 is not recommended for between-subject designs, it is plenty powerful for the current within-subject design where each participants runs for 300 trials [@Rouder.Haaf.2018;@Smith.Little.2018].
 
 **Apparatus.** Participants were run individually on a PC running Windows.  The experiment was controlled by a Python 3.6 program using Psychopy 3 libraries.  The display was an ordinary 19" LCD running with a resolution of $1440 \times 900$ pixels$^2$ at a refresh rate of 75hz.
 
