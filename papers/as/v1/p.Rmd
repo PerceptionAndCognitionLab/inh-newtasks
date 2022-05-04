@@ -30,7 +30,7 @@ affiliation       :
 authornote: |
   Author Contributions: JNR conceived the project, programmed the experiment, and wrote the paper.  AFCdlP performed the latent variable analysis in JAGS and edited the paper.MSP performed the complementary latent-variable analysis in lavaan and co-wrote the paper.  VMR provided the adaptive staircase algorithms and analysis, and edited the paper. AT conceived the project, set up the experiments, organized the running of participants, and edited the paper.
 
-  Open Science Practices: All code used in performing this research are publicly available at .  The links therein refer to raw data, which are curated github.com/amthapar/data-east/tree/main/antiSaccade/as12
+  Open Science Practices: All code used in performing this research are publicly available at https://github.com/PerceptionAndCognitionLab/inh-newtasks/blob/public/papers/as/v1/p.Rmd.  The links therein refer to raw data, which are curated github.com/amthapar/data-east/tree/main/antiSaccade/as12
 
 abstract          : >
   One of the most popular measures of cognitive control is the antisaccade accuracy task (Kane et al., *J Exp Psychol General*, 2001) where briefly presented and subsequently masked targets at a peripheral location are identified.  Prior to mask presentation, there is a cue at an opposing location that must be suppressed.  We assess to what degree this antisaccade accuracy measure reflects cognitive control vs. general speed by comparing perforance to a prosaccade accuracy condition.  Target durations in both tasks are adjusted with an adaptive 2-down/1-up staircase to produce constant accuracies.  Individual target durations in the antisaccade condition are highly correlated to those in the prosaccade condition($r=.83$).  With a series of hierarchical models, we show there is but a single source of systemic variation across the conditions---a factor of general speed.  We conclude that the antisaccade accuracy measure indexes general speed rather than cognitive control.
@@ -82,7 +82,7 @@ The key prediction is about the correlation among the prosaccade and antisaccade
 
 # Method
 
-**Subjects.** Twenty-six students from Brywn Mawr college participated in exchange for course credit or $10.  This sample was the largest one we could obtain before the semester ended.  Although a sample size of 26 is not recommended for between-subject designs, it is plenty powerful for the current within-subject design where each participants runs for 300 trials [@Rouder.Haaf.2018;Smith.Little.2018].
+**Subjects.** Twenty-six students from Brywn Mawr college participated in exchange for course credit or $10.  This sample was the largest one we could obtain before the semester ended.  Although a sample size of 26 is not recommended for between-subject designs, it is plenty powerful for the current within-subject design where each participants runs for 300 trials [@Rouder.Haaf.2018;@Smith.Little.2018].
 
 **Apparatus.** Participants were run individually on a PC running Windows.  The experiment was controlled by a Python 3.6 program using Psychopy 3 libraries.  The display was an ordinary 19" LCD running with a resolution of $1440 \times 900$ pixels$^2$ at a refresh rate of 75hz.
 
