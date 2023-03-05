@@ -32,17 +32,12 @@ affiliation       :
 
 
 authornote: |
-  Author Contributions: JNR conceived the project, programmed the experiment, and wrote the paper.  AFCdlP performed the latent variable analysis in JAGS and edited the paper.MSP performed the complementary latent-variable analysis in lavaan and co-wrote the paper.  VMR provided the adaptive staircase algorithms and analysis, and edited the paper. MCH and MMP collected the data.  AT conceived the project, set up the experiments, organized the running of participants, and edited the paper.
+  Author Contributions: JNR conceived the project, programmed the experiment, and wrote the paper.  AFCdlP performed the latent variable analysis in JAGS and edited the paper.MSP performed the complementary latent-variable analysis in lavaan and co-wrote the paper.  VMR provided the adaptive staircase algorithms and analysis, and edited the paper. MCH and MMP collected the data.  AT conceived the project, set up the experiments, organized the running of participants, and edited the paper.  JNR was supported by NSF 2126976.
 
   Open Science Practices: All code and data used in performing this research are publicly available at https://github.com/PerceptionAndCognitionLab/inh-newtasks/blob/public/papers/as/v3/p.Rmd.   This Rmarkdown version provides the text; constructs figures, notes, and references; loads and cleans the data; and performs the analyses.  The links therein refer to raw data, which are curated at github.com/amthapar/data-east/tree/main/antiSaccade/as12.  Python code used to run the experiments is also available at this repository.
 
-
 abstract          : >
-  One of the most popular and influential measures of cognitive control is the antisaccade task where participants identify briefly presented and subsequently masked targets at a peripheral location.  Prior to mask presentation, there is a cue at an opposing location that must be inhibited.  Performance reflects the ability to inhibit 
-  
-  We assess the degree to which antisaccade accuracy measure reflects an independent inbhibition component vs. a more generic processing-speed component 
-  
-  by comparing performance to that in a prosaccade accuracy condition.  Target durations in both tasks are adjusted with an adaptive 2-down/1-up staircase to produce constant accuracies.  Individual target durations in the antisaccade condition are highly correlated to those in the prosaccade condition ($r=.83$).  With a series of hierarchical models, we show there is but a single source of systemic variation across the conditions.  We conclude that individual variation in inhibition in the antisaccade task is due to individual variation in processing speed.
+  One of the most popular and influential measures of cognitive control is the antisaccade task where participants identify briefly presented and subsequently masked targets at a peripheral location.  Prior to mask presentation, there is a cue at an opposing location that must be inhibited.  We assess the degree to which antisaccade accuracy reflects an inbhibition component independent of processing-speed by comparing performance to that in a prosaccade accuracy condition.  Target durations in both tasks are adjusted with an adaptive 2-down/1-up staircase to produce constant accuracies.  Individual target durations in the antisaccade condition are highly correlated to those in the prosaccade condition ($r=.83$).  With a series of hierarchical models, we show there is but a single source of systemic variation across the conditions.  We conclude that individual variation in inhibition in the antisaccade task is due to individual variation in processing speed.
   
 keywords          : "cognitive control, inhibition, antisaccade task, processing speed"
 
